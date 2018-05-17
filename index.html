@@ -19,44 +19,44 @@
 	<div id="fill">
 
 
-<h2 class="titl">Sports Ground Online Booking Form</h2><br>
+		<h2 class="titl">Sports Ground Online Booking Form</h2><br>
 
-	<div class="jumbotron" id="ground_form">
+		<div class="jumbotron" id="ground_form">
 
 
-		<form onsubmit="return false"  >
-			<h3>Please fill up the following details</h3><br>
-			<div class="row">
-				<label for="First_Name" class="col-2">First Name:</label>
-				<!-- <div class="input" > -->
-				<input type="text" name='First_Name' title="Your first name" alt="Hover text" class="col-4" required>
-				<!-- <span class="tooltip">Info</span> -->
-				<!-- </div> -->
+			<form onsubmit="createTable();">
+				<h3>Please fill up the following details</h3><br>
+				<div class="row">
+					<label for="First_Name" class="col-2">First Name:</label>
+					<!-- <div class="input" > -->
+					<input type="text" name='First_Name' title="Your first name" alt="Hover text" class="col-4" required>
+					<!-- <span class="tooltip">Info</span> -->
+					<!-- </div> -->
 
-			</div>
+				</div>
 
-			<div class="row">
-				<label for="Last_Name" class="col-2">Last Name:</label>
+				<div class="row">
+					<label for="Last_Name" class="col-2">Last Name:</label>
 
-				<input type="text" name='Last_Name' title="Your last name" alt="Hover text" class="col-4" required>
+					<input type="text" name='Last_Name' title="Your last name" alt="Hover text" class="col-4" required>
 
-			</div>
+				</div>
 
-			<div class="row">
+				<div class="row">
 
-				<label for="Email" class="col-2">Webmail:</label>
-				<input type="Email" name='Email' title="your webmail-id" alt="Hover text" class="col-4">
-			</div>
-			<div class="row">
+					<label for="Email" class="col-2">Webmail:</label>
+					<input type="Email" name='Email' title="your webmail-id" alt="Hover text" class="col-4">
+				</div>
+				<div class="row">
 
-				<label for="Rollno" class="col-2">Roll Number:</label>
+					<label for="Rollno" class="col-2">Roll Number:</label>
 
-				<input type="number" name='Rollno' title="Your Roll no." alt="Hover text" class="col-4">
-			</div>
-			<div class="row">
+					<input type="number" name='Rollno' title="Your Roll no." alt="Hover text" class="col-4">
+				</div>
+				<div class="row">
 
-				<label for="dept" class="col-2">Department:</label>
-				<select name='Department' title="Your department" alt="Hover text" class="col-4">
+					<label for="dept" class="col-2">Department:</label>
+					<select name='Department' title="Your department" alt="Hover text" class="col-4">
     	 <option value="bsbe">Biosciences and Bioengineering</option>
   		 <option value="cse">Computer Science and Engg</option>
   		 <option value="cl">Chemical Engineering</option>
@@ -71,38 +71,38 @@
 		  <option value="ep">Engineering Physics</option>
 
     </select>
-			</div>
-			<div class="row">
+				</div>
+				<div class="row">
 
-				<label for="date" class="col-2">Date:</label>
-				<input type="date" name='date' id="date" title="Date on which ground is needed" alt="Hover text" class="col-4">
-			</div>
-			<div class="row">
+					<label for="date" class="col-2">Date:</label>
+					<input type="date" name='date' id="date" title="Date on which ground is needed" alt="Hover text" class="col-4">
+				</div>
+				<div class="row">
 
-				<label for="time" class="col-2">Time:</label>
-				<label for="time_from" class="col-1" align="center">From:</label>
-				<input type="time" name='time_from' id="time_from" title="TIme from which ground is needed" alt="Hover text" class="col-1">
-				<label for="time_to" class="col-1" align="center">To:</label>
-				<input type="time" name='time_to' id="time_to" title="Time upto which ground is needed" alt="Hover text" class="col-1" placeholder="To">
-			</div>
-			<div class="row">
+					<label for="time" class="col-2">Time:</label>
+					<label for="time_from" class="col-1" align="center">From:</label>
+					<input type="time" name='time_from' id="time_from" title="TIme from which ground is needed" alt="Hover text" class="col-1">
+					<label for="time_to" class="col-1" align="center">To:</label>
+					<input type="time" name='time_to' id="time_to" title="Time upto which ground is needed" alt="Hover text" class="col-1" placeholder="To">
+				</div>
+				<div class="row">
 
-				<label for="ground" class="col-2">Ground-Name:</label>
-				<input type="text" name='ground' title="Ground you want to book,eg-cricket,etc." alt="Hover text" class="col-4">
-			</div>
+					<label for="ground" class="col-2">Ground-Name:</label>
+					<input type="text" name='ground' title="Ground you want to book,eg-cricket,etc." alt="Hover text" class="col-4">
+				</div>
 
-						<div class="row">
-							<label for="contact" class="col-2">Contact Number:</label>
-							<input type="number" name='contact' title="Yourt contact number " alt="Hover text" class="col-4">
-						</div>
-			<div class="row">
+				<div class="row">
+					<label for="contact" class="col-2">Contact Number:</label>
+					<input type="number" name='contact' title="Yourt contact number " alt="Hover text" class="col-4">
+				</div>
+				<div class="row">
 
-				<label for="activity" class="col-2">Activity:</label>
-				<textarea name="activity" id="activity" title="Activity for which ground is needed" alt="Hover text" class="col-4"></textarea>
-			</div>
+					<label for="activity" class="col-2">Activity:</label>
+					<textarea name="activity" id="activity" title="Activity for which ground is needed" alt="Hover text" class="col-4"></textarea>
+				</div>
 
 
-			<!-- <div class="row">
+				<!-- <div class="row">
 
 			<label for="hostel" class="col-2">Hostel:</label>
 			<select name='hostel' title="some input here" alt="Hover text" class="col-4"  >
@@ -122,22 +122,22 @@
     </select>
 		</div> -->
 
-			<div align="center">
-				<button type="button" id="sub"  title="Press this after filling the form" onclick="createTable();"alt="Hover text" >Submit</button>
+				<div align="center">
+					<input type="submit" id="sub" name="submit" value="Submit" title="Press this after filling the form" "alt="Hover text " >
 			</div>
 
 		</form>
 	</div>
 		</div>
 
-	<div id="wrapper" align="center" class="container">
+	<div id="wrapper " align="center " >
 
 	</div>
 
-		<script type="text/javascript" src="js/ground_book.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script type="text/javascript " src="js/ground_book.js "></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
 </body>
 
 </html>
