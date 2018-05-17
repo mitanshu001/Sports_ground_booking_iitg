@@ -1,52 +1,64 @@
-body{
-	overflow-x: hidden;
+body {
+    overflow-x: hidden;
     overflow-y: scroll;
 }
-.logo{
-	float: left;
-}
-.titl{
-	text-align:center;
-	color: red;
-}
-.rigth{
-	text-align: right;
+
+.logo {
+    float: left;
 }
 
-#sub{
-	background-color: #f4f4f4;
-	height: 50px;
-	width: 100px;
-	margin: 20px;
-	margin-top: 30px;
-	font-size: 1em;
-	border-radius: 1000px;
-	margin-right: 35%;
-}
-.title{
-	color: #666666;
-	font-size: 30px;
-	padding-top: 20px;
+.titl {
+    text-align: center;
+    color: red;
 }
 
-input{
-	background-color: #f4f3f7;
-	required;
+.rigth {
+    text-align: right;
 }
-form label {font-weight:bold}
 
-#ground_form{
-	padding-left: 30%;
+#sub {
+    background-color: #f4f4f4;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 1em;
+    border-radius: 1000px;
+    margin-right: 35%;
 }
-td{
-    height:50px;
-    width:400px;
+
+.title {
+    color: #666666;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+input {
+    background-color: #f4f3f7;
+    required;
+}
+
+form label {
+    font-weight: bold
+}
+
+#ground_form {
+    padding-left: 30%;
+}
+
+td {
+    height: 50px;
+    width: 400px;
     text-align: center;
     border: 5px solid black;
     font-size: 20px;
-	overflow: auto;
+    overflow: auto;
 }
 
-table{
-	align-content: center;
+table {
+    align-content: center;
+}
+
+.resubmit {
+    text-align: center;
 }
