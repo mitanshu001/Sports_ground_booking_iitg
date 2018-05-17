@@ -22,7 +22,7 @@
 		<div class="jumbotron" id="ground_form">
 
 
-			<form onsubmit="createTable();">
+			<form onsubmit="createTable();" id="theform">
 				<h3>Please fill up the following details</h3><br>
 				<div class="row">
 					<label for="First_Name" class="col-2">First Name:</label>
@@ -43,13 +43,13 @@
 				<div class="row">
 
 					<label for="Email" class="col-2">Webmail:</label>
-					<input type="Email" name='Email' title="your webmail-id" alt="Hover text" class="col-4">
+					<input type="Email" name='Email' title="your webmail-id" alt="Hover text" class="col-4" required>
 				</div>
 				<div class="row">
 
 					<label for="Rollno" class="col-2">Roll Number:</label>
 
-					<input type="number" name='Rollno' title="Your Roll no." alt="Hover text" class="col-4">
+					<input type="number" name='Rollno' title="Your Roll no." alt="Hover text" class="col-4" required>
 				</div>
 				<div class="row">
 
@@ -73,20 +73,20 @@
 				<div class="row">
 
 					<label for="date" class="col-2">Date:</label>
-					<input type="date" name='date' id="date" title="Date on which ground is needed" alt="Hover text" class="col-4">
+					<input type="date" name='date' id="date" title="Date on which ground is needed" alt="Hover text" class="col-4" required>
 				</div>
 				<div class="row">
 
 					<label for="time" class="col-2">Time:</label>
 					<label for="time_from" class="col-1" align="center">From:</label>
-					<input type="time" name='time_from' id="time_from" title="TIme from which ground is needed" alt="Hover text" class="col-1">
+					<input type="time" name='time_from' id="time_from" title="TIme from which ground is needed" alt="Hover text" class="col-1" required>
 					<label for="time_to" class="col-1" align="center">To:</label>
-					<input type="time" name='time_to' id="time_to" title="Time upto which ground is needed" alt="Hover text" class="col-1" placeholder="To">
+					<input type="time" name='time_to' id="time_to" title="Time upto which ground is needed" alt="Hover text" class="col-1" placeholder="To" required>
 				</div>
 				<div class="row">
 
 					<label for="ground" class="col-2">Ground-Name:</label>
-					<input type="text" name='ground' title="Ground you want to book,eg-cricket,etc." alt="Hover text" class="col-4">
+					<input type="text" name='ground' title="Ground you want to book,eg-cricket,etc." alt="Hover text" class="col-4" required>
 				</div>
 
 				<div class="row">

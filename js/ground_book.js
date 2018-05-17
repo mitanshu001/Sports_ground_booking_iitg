@@ -5,7 +5,7 @@ function createTable() {
     var head1 = '<h3>Your recorded responses</h3>'
     var theader = '<table border="1">\n';
     var tbody = '';
-    console.log("hua");
+    // console.log("hua");
     var response = document.querySelectorAll('input');
     for (var i = 0; i < response.length; ++i) {
         if (i == 4) {
@@ -28,15 +28,17 @@ function createTable() {
     tbody += '<td>' + String(act.name) + '</td>';
     tbody += '<td>' + String(act.value) + '</td>';
     tbody += '</tr>\n';
-
     var tfooter = '</table>';
-    console.log(theader + tbody + tfooter);
+    // console.log(theader + tbody + tfooter);
     document.getElementById('wrapper').innerHTML = head1 + theader + tbody + tfooter;
     var body = document.getElementsByTagName("body")[0];
     var new_head = '<h2 class="titl">Sports Ground Online Booking </h2><br>';
     var mydiv = document.createElement("div");
-    document.querySelector('form').innerHTML=
+    // var to_remove=document.getElementById('theform');
+    // to_remove.parentNode.removeChild('theform');
     document.getElementById('fill').innerHTML = new_head;
+    // var to_remove=document.getElementById('theform');
+    // to_remove.parentNode.removeChild('theform');
     mydiv.classList.add('resubmit');
     wrapper.classList.add('jumbotron');
     var aTag = document.createElement('a');
