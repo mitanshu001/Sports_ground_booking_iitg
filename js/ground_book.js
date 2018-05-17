@@ -1,7 +1,6 @@
 document.getElementById('date').valueAsDate = new Date();
 
 function createTable() {
-
     alert('Success! Your rquest is submitted.');
     var head1 = '<h3>Your recorded responses</h3>'
     var theader = '<table border="1">\n';
@@ -32,14 +31,12 @@ function createTable() {
 
     var tfooter = '</table>';
     console.log(theader + tbody + tfooter);
-
-    var new_head = '<h2 class="titl">Sports Ground Online Booking </h2><br> '
-
-
-    document.getElementById('fill').innerHTML = new_head;
     document.getElementById('wrapper').innerHTML = head1 + theader + tbody + tfooter;
     var body = document.getElementsByTagName("body")[0];
+    var new_head = '<h2 class="titl">Sports Ground Online Booking </h2><br>';
     var mydiv = document.createElement("div");
+    document.querySelector('form').innerHTML=
+    document.getElementById('fill').innerHTML = new_head;
     mydiv.classList.add('resubmit');
     wrapper.classList.add('jumbotron');
     var aTag = document.createElement('a');
